@@ -1,0 +1,571 @@
+{
+    "_Name": "0446_1446v01_K",
+    "_Width": 8,
+    "_Height": 8,
+    "_MoveCount": 44,
+    "_GoalList": [
+        {
+            "_Name": "bubblegoal",
+            "_Count": 18
+        },
+        {
+            "_Name": "diamondgoal",
+            "_Count": 22
+        }
+    ],
+    "_CellList": [
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 97,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 96,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 97,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 97,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 96,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 96,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 97,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 97,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 97,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 97,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 96,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 96,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 96,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 96,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 97,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 96,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 93,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 93,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 97,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 96,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 94,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 94,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 93,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 93,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 97,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 96,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 94,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 94,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 93,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 93,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 97,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 96,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 94,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 94,
+                "_Ratio": 0,
+                "_Properties": [ ]
+            },
+            "_BubbleCount": 0
+        }
+    ],
+    "_GroupList": [
+        {
+            "_Name": "group1",
+            "_Ratio": 1,
+            "_ConditionAndIsUsed": false,
+            "_GeneratePerTurn": 0,
+            "_Items": [
+                {
+                    "_Id": 3,
+                    "_Ratio": 0,
+                    "_Properties": [ ]
+                },
+                {
+                    "_Id": 1,
+                    "_Ratio": 0,
+                    "_Properties": [ ]
+                },
+                {
+                    "_Id": 2,
+                    "_Ratio": 0,
+                    "_Properties": [ ]
+                }
+            ],
+            "_Conditions": [ ],
+            "_DropInterval": 0,
+            "_DropPosList": [ ],
+            "_UseForDrop": 1,
+            "_BarrelWeights": null
+        }
+    ],
+    "_Stars": [
+        16000,
+        40000,
+        55000
+    ],
+    "_Tutorial": {
+        "_Level": 0,
+        "_Highlights": [ ],
+        "_Text": ""
+    },
+    "_PotionColorData": null
+}

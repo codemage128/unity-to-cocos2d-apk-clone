@@ -1,0 +1,1610 @@
+{
+    "_Name": "0963_1963v02_L",
+    "_Width": 9,
+    "_Height": 9,
+    "_MoveCount": 27,
+    "_GoalList": [
+        {
+            "_Name": "duckgoal",
+            "_Count": 6
+        },
+        {
+            "_Name": "lightbulbgoal",
+            "_Count": 36
+        }
+    ],
+    "_CellList": [
+        {
+            "_TiledObject": {
+                "_Id": 42,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 42,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall3"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "30"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "3"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall3"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "30"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "3"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall3"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "30"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "3"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall3"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "30"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "3"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 42,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 42,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall3"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "30"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "3"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall3"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "30"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "3"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall2"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "20"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall2"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "20"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall3"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "30"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "3"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall3"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "30"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "3"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall2"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "20"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall2"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "20"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 42,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 42,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 0,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall3"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "30"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "3"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall3"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "30"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "3"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall2"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "20"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall2"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "20"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall1"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "10"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "1"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall1"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "10"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "1"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall3"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "30"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "3"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall3"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "30"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "3"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall2"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "20"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall2"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "20"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall1"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "10"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "1"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall1"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "10"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "1"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall3"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "30"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "3"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall3"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "30"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "3"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall2"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "20"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall2"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "20"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall1"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "10"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "1"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall1"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "10"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "1"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall3"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "30"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "3"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall3"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "30"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "3"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall2"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "20"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall2"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "20"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall1"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "10"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "1"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 64,
+                "_Ratio": 0,
+                "_Properties": [
+                    {
+                        "_key": "wall",
+                        "_value": "wall1"
+                    },
+                    {
+                        "_key": "capacity",
+                        "_value": "10"
+                    },
+                    {
+                        "_key": "order",
+                        "_value": "1"
+                    },
+                    {
+                        "_key": "matchType",
+                        "_value": "2"
+                    },
+                    {
+                        "_key": "offset",
+                        "_value": ""
+                    },
+                    {
+                        "_key": "scale",
+                        "_value": ""
+                    }
+                ]
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        },
+        {
+            "_TiledObject": {
+                "_Id": 21,
+                "_Ratio": 0,
+                "_Properties": []
+            },
+            "_BubbleCount": 0
+        }
+    ],
+    "_GroupList": [
+        {
+            "_Name": "group1",
+            "_Ratio": 1,
+            "_ConditionAndIsUsed": false,
+            "_GeneratePerTurn": 0,
+            "_Items": [
+                {
+                    "_Id": 3,
+                    "_Ratio": 0,
+                    "_Properties": []
+                },
+                {
+                    "_Id": 4,
+                    "_Ratio": 0,
+                    "_Properties": []
+                }
+            ],
+            "_Conditions": [],
+            "_DropInterval": 0,
+            "_DropPosList": [],
+            "_UseForDrop": 1,
+            "_BarrelWeights": ""
+        }
+    ],
+    "_Stars": [
+        20000,
+        58000,
+        68000
+    ],
+    "_Tutorial": {
+        "_Level": 0,
+        "_Highlights": [],
+        "_Text": ""
+    },
+    "_PotionColorData": []
+}

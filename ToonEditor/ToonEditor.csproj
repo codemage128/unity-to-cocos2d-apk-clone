@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C399412-8D71-4CAE-BA65-DB73A408711D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ToonEditor</RootNamespace>
+    <AssemblyName>ToonEditor</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LevelDataMeta, Version=1.0.6564.36445, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\LevelDataMeta.dll</HintPath>
+    </Reference>
+    <Reference Include="LevelDataMetaSerializer, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\LevelDataMetaSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net, Version=2.0.0.668, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LevelManager.cs" />
+    <Compile Include="DataStruct.cs" />
+    <Compile Include="Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor.Designer.cs">
+      <DependentUpon>Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoalSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoalSelect.Designer.cs">
+      <DependentUpon>GoalSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TileSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TileSelect.Designer.cs">
+      <DependentUpon>TileSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Editor.resx">
+      <DependentUpon>Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoalSelect.resx">
+      <DependentUpon>GoalSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TileSelect.resx">
+      <DependentUpon>TileSelect.cs</DependentUpon>
+      <LastGenOutput>ItemSelect1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\balloon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\balloonpinkright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bomb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boxall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bubble.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cantossback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcrateblue0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcrateblue1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcrateblue2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcrategreen0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcrategreen1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcrategreen2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcrateorange0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcrateorange1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcrateorange2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcratepurple0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcratepurple1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcratepurple2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcratered0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcratered1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcratered2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcrateyellow0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcrateyellow1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorcrateyellow2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cratelayer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cratelayer2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cratelayer3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duck1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duck2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duck3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duck4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duck5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\easteregg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eggall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eggblue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\egggreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eggorange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eggpurple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eggred.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eggyellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giantduck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giantpinata1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\honey1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\honey2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jelly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lightbulboff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lightbulbon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magichat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\metalcrate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oystergoal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sodabottleback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solidcolor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solidcolor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solidcolor3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solidcolor4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solidcolor5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solidcolor6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watermelon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watermelon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watermelon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coloredballoon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coloredballoon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coloredballoon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coloredballoon4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coloredballoon5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coloredballoon6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coloredballoongoal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BubbleGenerator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cantoss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColoredSodaRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColoredSodaBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColoredSodaGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColoredSodaPurple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColoredSodaYellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GiantPinata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Soda4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Soda5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall3.png" />
+    <None Include="Resources\wall2.png" />
+    <None Include="Resources\wall1.png" />
+    <None Include="Resources\giftgoal.png" />
+    <None Include="Resources\gift1.png" />
+    <None Include="Resources\ufogoal.png" />
+    <None Include="Resources\soap.png" />
+    <None Include="Resources\potiongoal.png" />
+    <None Include="Resources\penguingoal.png" />
+    <None Include="Resources\penguin1.png" />
+    <None Include="Resources\molegoal.png" />
+    <None Include="Resources\hanoigoal.png" />
+    <None Include="Resources\mole.png" />
+    <None Include="Resources\PotionYellow.png" />
+    <None Include="Resources\PotionRed.png" />
+    <None Include="Resources\PotionBlue.png" />
+    <None Include="Resources\PotionGreen.png" />
+    <None Include="Resources\PotionPurple.png" />
+    <None Include="Resources\PotionOrange.png" />
+    <None Include="Resources\Stone.png" />
+    <None Include="Resources\ic_play_playcontrol_pressed1.png" />
+    <None Include="Resources\ic_menu_save.png" />
+    <None Include="Resources\rocketvertical.png" />
+    <None Include="Resources\rockethorizantal.png" />
+    <None Include="Resources\fish2.png" />
+    <None Include="Resources\fish1.png" />
+    <None Include="Resources\discoballcolor6.png" />
+    <None Include="Resources\discoballcolor5.png" />
+    <None Include="Resources\discoballcolor4.png" />
+    <None Include="Resources\discoballcolor3.png" />
+    <None Include="Resources\discoballcolor2.png" />
+    <None Include="Resources\discoballcolor1.png" />
+    <None Include="Resources\seperator.png" />
+    <None Include="Resources\none.png" />
+    <None Include="Resources\group11.png" />
+    <None Include="Resources\group10.png" />
+    <None Include="Resources\group9.png" />
+    <None Include="Resources\group8.png" />
+    <None Include="Resources\group7.png" />
+    <None Include="Resources\group6.png" />
+    <None Include="Resources\group5.png" />
+    <None Include="Resources\group4.png" />
+    <None Include="Resources\group3.png" />
+    <None Include="Resources\group2.png" />
+    <None Include="Resources\group1.png" />
+    <None Include="Resources\empty.png" />
+    <None Include="Resources\TileFocus.png" />
+    <None Include="Resources\billboardon.png" />
+    <None Include="Resources\001.png" />
+    <None Include="Resources\ballongenerator1.png" />
+    <None Include="Resources\ballongenerator2.png" />
+    <None Include="Resources\BlasterPurpleLeft.png" />
+    <None Include="Resources\BlasterPurpleRight.png" />
+    <None Include="Resources\BlasterPurpleDown.png" />
+    <None Include="Resources\BlasterPurpleUp.png" />
+    <None Include="Resources\BlasterOrangeLeft.png" />
+    <None Include="Resources\BlasterOrangeRight.png" />
+    <None Include="Resources\BlasterOrangeDown.png" />
+    <None Include="Resources\BlasterOrangeUp.png" />
+    <None Include="Resources\BlasterYellowLeft.png" />
+    <None Include="Resources\BlasterYellowRight.png" />
+    <None Include="Resources\BlasterYellowDown.png" />
+    <None Include="Resources\BlasterYellowUp.png" />
+    <None Include="Resources\BlasterBlueLeft.png" />
+    <None Include="Resources\BlasterBlueRight.png" />
+    <None Include="Resources\BlasterBlueDown.png" />
+    <None Include="Resources\BlasterBlueUp.png" />
+    <None Include="Resources\BlasterRedLeft.png" />
+    <None Include="Resources\BlasterRedRight.png" />
+    <None Include="Resources\BlasterRedDown.png" />
+    <None Include="Resources\BlasterRedUp.png" />
+    <None Include="Resources\BlasterGreenLeft.png" />
+    <None Include="Resources\BlasterGreenRight.png" />
+    <None Include="Resources\BlasterGreenDown.png" />
+    <None Include="Resources\BlasterGreenUp.png" />
+    <None Include="Resources\birdhouse.png" />
+    <None Include="Resources\barrel1.png" />
+    <Content Include="Resources\diamondclose.png" />
+    <Content Include="Resources\diamondopen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
